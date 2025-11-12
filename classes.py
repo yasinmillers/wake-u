@@ -1,4 +1,4 @@
-class animal:
+class Animal:
     def __init__(self, name, species,type,location,age,color,weight,height,gender,diet):
         self.name = name
         self.species = species
@@ -12,5 +12,7 @@ class animal:
         self.diet = diet
 
   
-    cow = animal("Bessie", "Mammal","Herbivore","Farm",5,"Brown",1500,60, " Female","Grass")
-        
+cow = Animal("Bessie", "Mammal","Herbivore","Farm",5,"Brown",1500,60, " Female","Grass")
+goat = Animal("Billy", "Mammal","Herbivore","Farm",3,"White",200,30, "Male","Grass")
+cat = Animal("Whiskers", "Mammal","Carnivore","House",2,"Black",15,10, "Female","Fish")
+print(cow.name, cow.species, cow.type, cow.location, cow.age, cow.color, cow.weight, cow.height, cow.gender, cow.diet)       
