@@ -1,4 +1,4 @@
-class Animal:
+class animal:
     def __init__(self, name, species,type,location,age,color,weight,height,gender,diet):
         self.name = name
         self.species = species
@@ -11,5 +11,6 @@ class Animal:
         self.gender = gender
         self.diet = diet
 
-    def speak(self):
-        raise NotImplementedError("Subclasses must implement this method")
+  
+    cow = animal("Bessie", "Mammal","Herbivore","Farm",5,"Brown",1500,60, " Female","Grass")
+        
