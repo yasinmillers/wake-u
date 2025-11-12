@@ -12,11 +12,13 @@ class Animal:
         self.diet = diet
 
   
-cow = Animal("Bessie", "Mammal","Herbivore","Farm",5,"Brown",1500,60, " Female","Grass")
-goat = Animal("Billy", "Mammal","Herbivore","Farm",3,"White",200,30, "Male","Grass")
-cat = Animal("Whiskers", "Mammal","Carnivore","House",2,"Black",15,10, "Female","Fish")
-fox = Animal("Foxy", "Mammal","Omnivore","Forest",4,"Red",30,20, "Male","Small animals and fruits")
-print(cow.name, cow.species, cow.type, cow.location, cow.age, cow.color, cow.weight, cow.height, cow.gender, cow.diet)
-print(goat.name, goat.species, goat.type, goat.location, goat.age, goat.color, goat.weight, goat.height,goat.gender, goat.diet)
-print(cat.name, cat.species, cat.type, cat.location, cat.age, cat.color, cat.weight, cat.height,cat.gender, cat.diet)
-print(fox.name, fox.species, fox.type, fox.location, fox.age, fox.color, fox.weight, fox.height,    fox.gender, fox.diet)      
+class Dog(Animal):
+    def __init__(self, name, color, age):
+        super().__init__(name, species="Canine", type=None, location=None, age=age, color=color, weight=None, height=None, gender=None, diet=None)  
+        self.name = name
+        self.age = age  
+        self.color = color
+        self.species = "Canine"  # Class attribute
+max= Dog("Max", "Brown", 4)
+print(max.name, max.age, max.species, max.color)  
+                             
