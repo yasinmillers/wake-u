@@ -1,5 +1,7 @@
 class Dog:
     species = "Canine"  # Class attribute
+    
+    
 
     def __init__(self, name, color, age):
         self.name = name  # Instance attribute
