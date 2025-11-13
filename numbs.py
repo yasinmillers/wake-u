@@ -14,5 +14,10 @@ print("array_2d:",array_2d)
 
 # Generating a 3D array of random floats
 array_3d = np.random.rand(2, 3, 4)
+
+array_4d = np.random.rand(2,3,4,5)
+print ("array_4d:",array_4d)
+
 print("array_3d:",array_3d)
+
 print(arr)
