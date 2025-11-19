@@ -4,3 +4,6 @@ def funny():
     c=a+b
     return c
 print(funny())
+
+
+
