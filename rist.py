@@ -1,10 +1,17 @@
 this_list = ["apple", "banana", "cherry"]
 this_list[1:2] = ["blackcurrant", "watermelon"]
+print(this_list)
 this_list.insert(2, "orange")
+print(this_list)
 this_list.append("kiwi")
+print(this_list)
 this_list.remove("apple")
+print(this_list)
 this_list.sort()
+print(this_list)
 this_list.reverse()
+print(this_list)
 this_list.pop()
+print(this_list)
 this_list.clear()
 print(this_list)
