@@ -5,4 +5,6 @@ l=[10,20,30,40,50]
 l.reverse()
 print(l)
 l.sort()
+print(l)
+l.extend([60,70,80])
 print(l)    
