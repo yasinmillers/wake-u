@@ -33,7 +33,7 @@ else:
   print("You are too young to drive")
   
   
-  score = 85
+score = 85
 attendance = 90
 submitted = True
 
