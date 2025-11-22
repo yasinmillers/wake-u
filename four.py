@@ -9,5 +9,5 @@ for x in fruit:
   if x == "banana":
     continue
   print(x)
-for i in range(0):
+for i in range(2,14,3):
   print(i)  
