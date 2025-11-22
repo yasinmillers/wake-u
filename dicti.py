@@ -8,3 +8,11 @@ my_dict= {
     
 }
 print(len(my_dict))
+print(type(my_dict))
+print(my_dict)
+print(my_dict["name"])
+print(my_dict.items( ))
+if 'city' in my_dict:
+    print("City is present in the dictionary.")
+else:
+    print("City is not present in the dictionary.") 
