@@ -15,4 +15,8 @@ print(my_dict.items( ))
 if 'city' in my_dict:
     print("City is present in the dictionary.")
 else:
-    print("City is not present in the dictionary.") 
+    print("City is not present in the dictionary.")
+my_dict.update({"age": 31})
+print(my_dict)
+my_dict['road'] = "5th Avenue"
+print(my_dict)
