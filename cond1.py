@@ -1,4 +1,4 @@
-age = 18
+age = 70
 
 if age < 13:
   print("You are a child")
