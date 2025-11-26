@@ -1,0 +1,1 @@
+yas =open("file.txt","r")
