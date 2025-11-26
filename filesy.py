@@ -1,1 +1,1 @@
-yas =open("file.txt","r")
+yas = open("file.txt","r")
