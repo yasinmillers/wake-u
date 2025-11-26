@@ -1,3 +1,3 @@
 yas = open("file.txt","r")
 print(yas.read())
-yas.close()
+y1=open("caseb.txt","w")
