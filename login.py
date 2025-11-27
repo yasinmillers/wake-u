@@ -29,9 +29,9 @@ username_entry = tk.Entry(root, font=("Arial", 12))
 username_entry.pack(pady=10)
 
 # Password label and entry
-tk.Label(root, text="Password:", bg="#094AEEF", fg="white", font=("Arial", 12)).pack(pady=5)
+tk.Label(root, text="Password:", bg="#094AEE", fg="white", font=("Arial", 12)).pack(pady=5)
 password_entry = tk.Entry(root, show="*", font=("Arial", 12))
-password_entry.pack(pady=5)
+password_entry.pack(pady=10)
 
 # Login button
 login_button = tk.Button(root, text="Login", command=login)
