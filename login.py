@@ -21,7 +21,7 @@ def login():
 root = tk.Tk()
 root.title("Login Page")
 root.geometry("800x600")
-root.configure(bg="#1E90FF")
+root.configure(bg="#094AEE")
 
 # Username label and entry
 tk.Label(root, text="Username:").pack(pady=10)
