@@ -34,8 +34,7 @@ password_entry = tk.Entry(root, show="*", font=("Arial", 12))
 password_entry.pack(pady=10)
 
 # Login button
-login_button = tk.Button(root, text="Login", command=login)
-login_button.pack(pady=40)
-
+login_button = tk.Button(root, text="Login", command=login, bg="white", fg="#1E90FF", font=("Arial", 12, "bold"))
+login_button.pack(pady=20
 # Run the GUI
 root.mainloop()
