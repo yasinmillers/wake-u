@@ -20,21 +20,21 @@ def login():
 # Create main window
 root = tk.Tk()
 root.title("Login Page")
-root.geometry("300x200")
+root.geometry("800x600")
 
 # Username label and entry
-tk.Label(root, text="Username:").pack(pady=5)
+tk.Label(root, text="Username:").pack(pady=10)
 username_entry = tk.Entry(root)
-username_entry.pack(pady=5)
+username_entry.pack(pady=10)
 
 # Password label and entry
-tk.Label(root, text="Password:").pack(pady=5)
+tk.Label(root, text="Password:").pack(pady=10)
 password_entry = tk.Entry(root, show="*")
-password_entry.pack(pady=5)
+password_entry.pack(pady=10)
 
 # Login button
 login_button = tk.Button(root, text="Login", command=login)
-login_button.pack(pady=20)
+login_button.pack(pady=40)
 
 # Run the GUI
 root.mainloop()
