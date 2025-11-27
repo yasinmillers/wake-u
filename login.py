@@ -24,8 +24,8 @@ root.geometry("800x600")
 root.configure(bg="#094AEE")
 
 # Username label and entry
-tk.Label(root, text="Username:").pack(pady=10)
-username_entry = tk.Entry(root)
+tk.Label(root, text="Username:", bg="#1E90FF", fg="white", font=("Arial", 12)).pack(pady=5)
+username_entry = tk.Entry(root, font=("Arial", 12))
 username_entry.pack(pady=10)
 
 # Password label and entry
