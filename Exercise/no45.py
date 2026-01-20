@@ -8,8 +8,6 @@ def find_pair(arr, target):
         num_dict[num] = i
     return None
 
-# Example usage:
-#arr = [2, 7, 11, 15]
 arr= list(map(int, input("Enter numbers separated by spaces: ").split()))
 target = int(input("Enter the target sum: ")) 
 
