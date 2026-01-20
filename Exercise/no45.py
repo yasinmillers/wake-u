@@ -15,6 +15,6 @@ target = int(input("Enter the target sum: "))
 
 result = find_pair(arr, target)
 if result:
-    print(f"Pair found at indices {result}")
+    print(f"Pair found at indices",result)
 else:
     print("No pair found")
