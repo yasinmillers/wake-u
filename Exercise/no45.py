@@ -9,7 +9,9 @@ def find_pair(arr, target):
     return None
 
 # Example usage:
-arr = [2, 7, 11, 15]
+#arr = [2, 7, 11, 15]
+arr= list(map(int, input("Enter numbers separated by spaces: ").split()))
+
 target = 9
 result = find_pair(arr, target)
 if result:
