@@ -11,8 +11,7 @@ def find_pair(arr, target):
 # Example usage:
 #arr = [2, 7, 11, 15]
 arr= list(map(int, input("Enter numbers separated by spaces: ").split()))
-
-target = 9
+target = int(input("Enter the target sum: "))   
 result = find_pair(arr, target)
 if result:
     print(f"Pair found at indices {result}")
