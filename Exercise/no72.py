@@ -10,6 +10,8 @@ elif marks >= 60:
     grade = "C"
 elif marks >= 50:
     grade = "D"
-else:
+elif marks >= 0:
     grade = "F"
+else:
+    grade = "invalid marks"
 print("Grade:", grade)
