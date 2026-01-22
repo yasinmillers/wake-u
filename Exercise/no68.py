@@ -1,0 +1,1 @@
+#Create student marks dictionary and find average
