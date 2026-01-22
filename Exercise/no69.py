@@ -7,3 +7,4 @@ for i in range(n):
     student_marks[name] = marks
 highest_student = max(student_marks, key=student_marks.get)
 print("Highest Scoring Student:", highest_student)
+print("With highest of Marks:", student_marks[highest_student])
