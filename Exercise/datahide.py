@@ -12,5 +12,11 @@ class BankAccount:
         print(f"Balance: {self.__balance}")
         
 account = BankAccount(1000)
+account.show_balance()
 account.deposit(500)
 account.show_balance()
+
+
+
+        
+        

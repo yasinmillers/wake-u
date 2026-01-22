@@ -5,9 +5,7 @@ class MyClass:
         self.age = age
         
     def speak(self):
-        return f"My name is {self.name} and I am {self.age} years old."
-    
-           
+        return f"My name is {self.name} and I am {self.age} years old."         
 m1 = MyClass("Alice", 30)
 m2= MyClass("Bob", 25)
 print(m1.name, m1.age)
