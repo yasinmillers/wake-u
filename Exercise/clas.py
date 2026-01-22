@@ -6,6 +6,19 @@ class MyClass:
         
     def speak(self):
         return f"My name is {self.name} and I am {self.age} years old."
+    
+    def __init__(self,balance):
+        self.__balance = balance
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            return True
+        return False
+    def show_balance(self):
+        print(f"Balance: {self.__balance}")
+        
+        
         
 m1 = MyClass("Alice", 30)
 m2= MyClass("Bob", 25)
@@ -17,4 +30,6 @@ my_variable=30
 print(m1.my_variable)
 m1.name="Charlie"
 print(m1.name)
+print(m1.speak())
+print(m2.speak())
 
