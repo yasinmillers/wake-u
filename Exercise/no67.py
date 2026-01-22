@@ -1,6 +1,12 @@
 #Count words in a sentence using dictionary
-sentence = "the quick brown fox jumps over the lazy dog"
+sentence = input("Enter a sentence: ")
+words= sentence.split()
 word_count = {}
-for word in sentence.split():
-    word_count[word] = word_count.get(word, 0) + 1
+
+for word in words:
+    if word in word_count:
+        word_count[word] += 1
+    else:
+        word_count[word] = 1    
 print(word_count)
+print ('total words:', len(words))
