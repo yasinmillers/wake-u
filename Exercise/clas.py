@@ -7,24 +7,7 @@ class MyClass:
     def speak(self):
         return f"My name is {self.name} and I am {self.age} years old."
     
-    def __init__(self,balance):
-        self.__balance = balance
-
-    def deposit(self, amount):
-        if amount > 0:
-            self.__balance += amount
-            return True
-        return False
-    def show_balance(self):
-        print(f"Balance: {self.__balance}")
-        
-acc=
-
-
-
-
-
-              
+           
 m1 = MyClass("Alice", 30)
 m2= MyClass("Bob", 25)
 print(m1.name, m1.age)
