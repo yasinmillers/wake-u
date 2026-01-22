@@ -17,6 +17,13 @@ class MyClass:
         return False
     def show_balance(self):
         print(f"Balance: {self.__balance}")
+        
+acc=
+
+
+
+
+
               
 m1 = MyClass("Alice", 30)
 m2= MyClass("Bob", 25)
