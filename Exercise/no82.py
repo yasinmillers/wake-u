@@ -2,7 +2,7 @@
 #6count down from N to 0.
 def countdown(n):
     if n == 0:
-        print("Blast off!")
+        print("0")
     else:
         print(n)
         countdown(n - 1)
