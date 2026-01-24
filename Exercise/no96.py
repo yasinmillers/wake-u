@@ -3,6 +3,7 @@ Definition: A system that triggers a physical action (simulated) without returni
 def set_thermostat(temperature):
     if temperature < 60:
         action = "Heating On"
+        print(f"Thermostat set to {temperature}°F. {action}.")
     elif temperature > 75:
         action = "Cooling On"
     else:
