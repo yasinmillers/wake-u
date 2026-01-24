@@ -3,6 +3,7 @@ Definition: A game engine that doubles or triples player stats based on a "Power
 Task: Create a function power_up(n) that returns a lambda function. The returned
 lambda should take a stat value and multiply it by n. (e.g., double = power_up(2), then
 double(10) should give 20).'''
+
 def power_up(n):
     return lambda stat: stat * n        
 # User input
