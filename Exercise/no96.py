@@ -1,18 +1,16 @@
 '''The Digital Thermostat (Void Functions)
-Definition: A system that triggers a physical action (simulated) without returning a value.'''
+Definition: A system that triggers a physical action (simulated) without returning a value.Task: Create a void function (a function with no return statement) called
+toggle_ac(temp). If temp > 25, it should print "Compressor ON". If not, it should print
+"Compressor OFF"
+'''
 
-
-def digital_thermostat(temperature):
-    if temperature > 30:
-        print("🔥 Cooling system activated")
-    elif temperature < 18:
-        print("❄️ Heating system activated")
+def toggle_ac(temp):    
+    if temp > 25:
+        print("Compressor ON")
     else:
-        print("✅ Temperature is stable")
-
-
+        print("Compressor OFF")     
+        
 # User input
-temp = int(input("Enter current temperature: "))
-
-# Call the void function
-digital_thermostat(temp)
+temperature = float(input("Enter the current temperature: "))   
+# Call function
+toggle_ac(temperature)
