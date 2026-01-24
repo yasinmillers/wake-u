@@ -1,4 +1,5 @@
 #Find sum of list elements
-numbers = [1, 2, 3, 4, 5]
+numbers = input("Enter numbers separated by spaces: ").split()
+numbers = [int(num) for num in numbers]     
 total = sum(numbers)
 print("Sum of list elements:", total)
