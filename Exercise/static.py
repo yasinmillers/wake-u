@@ -12,9 +12,6 @@ class Example:
         return "This is a static method."
     
 # Example usage
-s=Example("Alice", 30)
 example = Example()
-print(example.instance_method()) 
-print(Example.class_method())    
-print(Example.static_method())
-print(s.name, s.age )    
+print(example.instance_method("Alice", 30))  # Instance method call
+print(Example.class_method())                  # Class method call  
