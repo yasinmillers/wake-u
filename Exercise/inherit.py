@@ -20,4 +20,6 @@ class Student(Person):
 student = Student("Alice", "S12345")
 student.show()
 print(student.get_student_info())  
+
+
     
