@@ -3,11 +3,11 @@ class A:
         print("This is class A")
         
         
-class B(A):
+class B():
     def display(self):
         print("This is class B")  
 
-class C(A, B):
+class C(B, A):
     def display(self):
         print("This is class C")
 
