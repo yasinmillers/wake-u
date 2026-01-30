@@ -26,3 +26,5 @@ s2=ParttimeEmployee()
 
 s1.calculate_salary()
 s2.calculate_salary()
+s3=Employee()
+s3.calculate_salary()   
