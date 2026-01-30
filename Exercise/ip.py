@@ -1,4 +1,4 @@
-#print a ip adresses from 192.168.1.0 to 192.168.1.255
+#print a ip addresses from 192.168.1.0 to 192.168.1.255
 ports = [80, 443, 8080, 3000, 5000, 8000, 8100]
 
 
