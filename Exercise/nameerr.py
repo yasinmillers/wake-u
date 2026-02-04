@@ -14,6 +14,6 @@ n=10
 try:
     result=n/0
     print(result)
-except ZeroDivisionError:
+except:
     print("An error occurred: Division by zero is not allowed.")
     
