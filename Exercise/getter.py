@@ -18,5 +18,8 @@ print(jane.get_name())  # Output: Jane
 
 jane.set_name("Janet jackson")
 jane.get_name() # Output: Janet jackson
-print(jane.get_name())        
+print(jane.get_name())  
+
+han= Person("yasin") 
+print(han.get_name)     
         
