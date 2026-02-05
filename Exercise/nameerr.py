@@ -8,7 +8,7 @@
 
 
 except ValueError: 
-    print("An error occurred: Invalid input. Please enter a valid integer.")'''
+    print("An error occurred: Invalid input. Please enter a valid integer.")
     
 n=10
 try:
@@ -19,7 +19,9 @@ except:
     
     
 finally:
-    print("Execution completed.") x  '''
+    print("Execution completed.") x  
+    
+'''
     
 
 try:
