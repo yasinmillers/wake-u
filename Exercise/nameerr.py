@@ -19,4 +19,13 @@ except:
     
     
 finally:
-    print("Execution completed.")
+    print("Execution completed.") x  '''
+    
+
+try:
+    n=0
+    result=10/n
+    
+    
+except ZeroDivisionError:
+    print("An error occurred: Division by zero is not allowed.")
