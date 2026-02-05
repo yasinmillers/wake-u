@@ -17,3 +17,6 @@ try:
 except:
     print("An error occurred: Division by zero is not allowed.")
     
+    
+finally:
+    print("Execution completed.")
