@@ -31,3 +31,10 @@ try:
     
 except ZeroDivisionError:
     print("An error occurred: Division by zero is not allowed.")
+    
+else:
+    
+    print(result)
+    
+finally:
+    print("Execution completed.")
