@@ -23,7 +23,8 @@ finally:
     
 '''
     
-
+'''
+    
 try:
     n=0
     result=10/n
@@ -38,3 +39,24 @@ else:
     
 finally:
     print("Execution completed.")
+'''
+
+
+a=['10',"twenty","30"]  
+try:
+   total =int(a[0]) + int(a[1]) + int(a[2])
+   print("Total:", total)
+except NameError as e:
+   print("An error occurred:", e)
+except ValueError as e:
+   print("An error occurred:", e)
+except Exception as e:
+   print("An unexpected error occurred:", e)    
+except IndexError as e:
+   print("An error occurred:", e)
+except TypeError as e:
+   print("An error occurred:", e)   
+finally:
+   print("Execution completed.")
+    
+    
