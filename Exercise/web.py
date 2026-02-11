@@ -5,7 +5,7 @@ base_url = "https://xkcd.com"
 url = "https://xkcd.com/1"
 
 while "#" not in url: 
-   # PART 1 - Request and Soupify ---------
+   #
    # Request the Web Page
    response = requests.get(url)
    # Parse the page to make it easy to use
