@@ -1,5 +1,9 @@
 import os
 import sys
 
-print("OS Name:", os.name)
-print("Platform:", sys.platform)
+files= os.listdir()
+for file in files:
+    if os.path.isfile(file):
+        print(file)
+    else:
+        print(f"{file} is a directory") 
