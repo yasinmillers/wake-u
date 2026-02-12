@@ -6,3 +6,7 @@ log_data = ["192.168.1.10", "192.168.1.15", "192.168.1.10", "192.168.1.10", "192
 
 freq=Counter(log_data)
 print(freq)
+
+for ip, count in freq.items():
+    print(f"IP Address: {ip} - Count: {count}")
+  
