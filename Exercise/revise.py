@@ -1,5 +1,6 @@
 fruits = ["apple", "banana", "cherry"]
 
-print("banana" in fruits)
-print("grape" in fruits)
 print(fruits[0:2])
+
+a=[0,1, 2, 3, 4, 5]
+print(a[1:4])
