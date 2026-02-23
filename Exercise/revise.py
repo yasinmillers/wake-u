@@ -1,13 +1,7 @@
-
-num = int(input("Enter a number: "))
-
-factorial = 1
-
-if num < 0:
-    print("Factorial does not exist for negative numbers")
-elif num == 0:
-    print("The factorial of 0 is 1")
+numbers = [1, 2, 3, 4, 5]
+unique_numbers = list(set(numbers))
+unique_numbers.sort(reverse=True)
+if len(unique_numbers) >= 2:
+    print("Second largest number:", unique_numbers[1])
 else:
-    for i in range(1, num + 1):
-        factorial *= i
-    print(factorial)
+    print("Not enough unique numbers")
