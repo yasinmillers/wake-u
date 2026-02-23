@@ -1,3 +1,4 @@
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-thislist[1:3] = ["blackcurrant", "watermelon"]
-print(thislist)
+roll = range(1, 7)
+print("Possible outcomes of rolling a six-sided die:")
+for outcome in roll:
+    print(outcome)      
