@@ -1,2 +1,5 @@
-sub=lambda a,b:b-a
-print(sub(10,5))    
+n = 10
+try:
+res = n / 0
+except ZeroDivisionError:
+print("Can't be divided by zero!")
