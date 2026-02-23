@@ -1,2 +1,2 @@
-r = range(1, 10, 2)
-print(list(r))
+sub=lambda a,b:b-a
+print(sub(10,5))    
