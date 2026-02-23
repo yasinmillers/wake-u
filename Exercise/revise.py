@@ -1,4 +1,9 @@
-numbers = int(input("Enter the number of elements in the list: "))
+numbers = []
+
+# Take at least 5 inputs
+for i in range(5):
+    num = int(input(f"Enter number {i + 1}: "))
+    numbers.append(num)
 
 # Find min and max
 minimum = min(numbers)
