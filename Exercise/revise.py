@@ -1,2 +1,3 @@
 roll = range(1, 7)
-print(roll)
+for r in roll:
+    print(r)    
