@@ -1,2 +1,2 @@
-for i in range(10, 0, -1):
-    print(i)
+r = range(1, 10, 2)
+print(list(r))
