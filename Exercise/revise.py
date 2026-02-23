@@ -1,27 +1,13 @@
-# define parent class
-class Parent: 
-   def myMethod(self):
-      print ('Calling parent method')
 
-# define child class
-class Child(Parent): 
-   def myMethod(self):
-      print ('Calling child method')
+num = int(input("Enter a number: "))
 
-# instance of child
-c = Child() 
-# child calls overridden method
-c.myMethod()
-class example:
-    def add(self, a = None, b = None, c = None):
-      x=0
-      if a !=None and b != None and c != None:
-         x = a+b+c
-      elif a !=None and b != None and c == None:
-         x = a+b
-      return x
+factorial = 1
 
-obj = example()
-
-print (obj.add(10,20,30))
-print (obj.add(10,20))
+if num < 0:
+    print("Factorial does not exist for negative numbers")
+elif num == 0:
+    print("The factorial of 0 is 1")
+else:
+    for i in range(1, num + 1):
+        factorial *= i
+    print(f"The factorial of {num} is {factorial}")
