@@ -21,3 +21,24 @@ print("Minimum value:", minimum)
 print("Maximum value:", maximum)
 print("Even numbers count:", even_count)
 print("Odd numbers count:", odd_count)
+
+
+
+
+
+class Vehicle:
+    def start(self):
+        print("Vehicle starting")
+
+class Car(Vehicle):
+    def start(self):
+        super().start()   # Call Vehicle's start
+        print("Car ready to drive")
+
+class ElectricCar(Car):
+    def start(self):
+        super().start()   # Call Car's start
+        print("Electric car fully charged")
+
+ecar = ElectricCar()
+ecar.start()
