@@ -1,7 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-unique_numbers = list(set(numbers))
-unique_numbers.sort()
-if len(unique_numbers) >= 2:
-    print("Second largest number:", unique_numbers[-2])
-else:
-    print("Not enough unique numbers")
+numbers = int(input("Enter the number of elements in the list: "))
+
+# Find min and max
+minimum = min(numbers)
+maximum = max(numbers)
+
+print("List:", numbers)
+print("Minimum value:", minimum)
+print("Maximum value:", maximum)
