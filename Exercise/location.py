@@ -1,3 +1,4 @@
+import requests
 ip="154.72.210.168"
 response = requests.get(f"http://ipinfo.io/{ip}/json")
 data = response.json()
