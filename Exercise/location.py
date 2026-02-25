@@ -1,5 +1,5 @@
 import requests
-ip="154.72.210.168"
+ip="154.72.210.1"
 response = requests.get(f"http://ipinfo.io/{ip}/json")
 data = response.json()
 print("IP Address:", data.get("ip"))
