@@ -46,4 +46,8 @@ with open("report.txt","w") as file:
     file.write("This is a report file.\n")
     file.write("It contains some sample data.\n")   '''
     
+with open("report.txt","a") as file:
+    file.write("This is a report1 file.\n")
+    file.write("It contains some sample data2.\n")   
+    
 
