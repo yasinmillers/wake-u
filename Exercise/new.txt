@@ -1,0 +1,5 @@
+/usr/local/bin/brew: line 45: readlink: command not found
+/usr/local/bin/brew: line 46: dirname: command not found
+/usr/local/bin/brew: line 45: readlink: command not found
+/usr/local/bin/brew: line 46: dirname: command not found
+/bin/bash: /usr/local/Library/Homebrew/brew.sh: No such file or directory
