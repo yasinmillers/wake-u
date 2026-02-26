@@ -1,2 +1,4 @@
 This is a report file.
 It contains some sample data.
+This is a report1 file.
+It contains some sample data2.
