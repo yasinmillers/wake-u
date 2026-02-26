@@ -40,6 +40,10 @@ with open("images.jpeg","rb") as file:
     data=file.read(100)
     print(data)
 '''
+# Writing binary data to a file
+'''
 with open("report.txt","w") as file:
     file.write("This is a report file.\n")
-    file.write("It contains some sample data.\n")   
+    file.write("It contains some sample data.\n")   '''
+    
+
