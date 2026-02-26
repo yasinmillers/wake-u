@@ -35,7 +35,8 @@ for line in file:
         print(data)
 except FileNotFoundError:
     print("The file does not exist.") '''
-    
+'''
 with open("images.jpeg","rb") as file:
     data=file.read(100)
     print(data)
+'''
