@@ -45,9 +45,16 @@ with open("images.jpeg","rb") as file:
 with open("report.txt","w") as file:
     file.write("This is a report file.\n")
     file.write("It contains some sample data.\n")   '''
-    
+    # Appending to a file
+'''
 with open("report.txt","a") as file:
     file.write("This is a report1 file.\n")
     file.write("It contains some sample data2.\n")   
+    '''
+    
+with open("/Users/yasinmillers/Desktop/imga.png","rb") as src:
+    with open("img_copy.png","wb") as dst:
+        dst.write(src.read())
+    
     
 
