@@ -9,3 +9,7 @@ file.close()'''
 with open("new.txt","r") as file:
     data=file.read()
     print(data) '''
+    
+file=open("new.txt","r")
+for line in file:
+    print(line) 
