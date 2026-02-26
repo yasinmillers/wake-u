@@ -51,7 +51,7 @@ with open("report.txt","a") as file:
     file.write("This is a report1 file.\n")
     file.write("It contains some sample data2.\n")   
     '''
-    
+# Copying a binary file (e.g., an image)   
 with open("/Users/yasinmillers/Desktop/imga.png","rb") as src:
     with open("img_copy.png","wb") as dst:
         dst.write(src.read())
