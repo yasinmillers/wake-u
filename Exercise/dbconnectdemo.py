@@ -15,3 +15,9 @@ cursor.execute("INSERT INTO students (name, course, marks, email) VALUES ('John 
 cursor.execute("INSERT INTO students (name, course, marks, email) VALUES ('Jane Smith', 'Data Science', 92, 'jane.smith@example.com')")
 cursor.execute("INSERT INTO students (name, course, marks, email) VALUES ('Alice Johnson', 'Web Development', 78, 'alice.johnson@example.com')")    
 conn.commit()
+cursor.execute("SELECT * FROM students")
+rows = cursor.fetchall()
+for row in rows:
+    print(row)      
+cursor.close()
+conn.close()    
