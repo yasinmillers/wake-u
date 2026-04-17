@@ -33,3 +33,14 @@ for i in range(3):
 my_dict = dict(zip(keys, values))
 
 print("Dictionary:", my_dict)
+
+
+keys = ["name", "age", "course"]
+values = ["Yasin", 20, "Cybersecurity"]
+
+my_dict = {}
+
+for i in range(len(keys)):
+    my_dict[keys[i]] = values[i]
+
+print("Dictionary:", my_dict)
