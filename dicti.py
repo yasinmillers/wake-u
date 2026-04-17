@@ -20,3 +20,16 @@ my_dict.update({"age": 31})
 print(my_dict)
 my_dict['road'] = "5th Avenue"
 print(my_dict)
+
+keys = []
+values = []
+
+for i in range(3):
+    k = input("Enter key: ")
+    v = input("Enter value: ")
+    keys.append(k)
+    values.append(v)
+
+my_dict = dict(zip(keys, values))
+
+print("Dictionary:", my_dict)
